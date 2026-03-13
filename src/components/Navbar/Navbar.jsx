@@ -1,7 +1,6 @@
-import React from 'react';
 import logo from '../../assets/logo/logo.png';
 
-const Header = () => {
+const Navbar = () => {
   return (
     <header>
       <h1>
@@ -11,4 +10,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

@@ -8,6 +8,7 @@ const Navbar = ({ rendersPageLinks }) => {
         <a className="custom-brand" href="/">
           <img src={logo} alt="Jahidul Sany Portfolio" className="logo-img" />
         </a>
+
         <ul className="nav-list">{rendersPageLinks()}</ul>
       </nav>
     </header>

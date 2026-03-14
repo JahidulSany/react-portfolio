@@ -1,9 +1,16 @@
+import './Footer.css';
+
 const Footer = () => {
   return (
-    <div className="">
-      <p>&copy; {new Date().getFullYear()} Jahidul Sany.</p>
-      <p>All Rights Reserved.</p>
-    </div>
+    <footer className="footer-container">
+      <div className="footer-content">
+        <p className="footer-text">
+          &copy; {new Date().getFullYear()}{' '}
+          <span className="brand-name">Jahidul Sany</span>.
+          <span className="divider">|</span> All Rights Reserved.
+        </p>
+      </div>
+    </footer>
   );
 };
 

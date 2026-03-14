@@ -1,0 +1,42 @@
+.footer-container {
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #dee2e6;
+  background-color: #f8f9fa; 
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.brand-name {
+  color: #000;
+  font-weight: 600;
+}
+
+.divider {
+  margin: 0 10px;
+  color: #ced4da;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 576px) {
+  .divider {
+    display: none;
+  }
+  .footer-text {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+  }
+}

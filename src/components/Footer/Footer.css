@@ -1,9 +1,9 @@
 .footer-container {
-  padding: 2rem 0;
-  margin-top: 3rem;
-  border-top: 1px solid #dee2e6;
-  background-color: #f8f9fa; 
+  padding: 3rem 0;
+  border-top: 1px solid #3d3939;
+  background-color: #1a1818;
   text-align: center;
+  color: #eeeeee;
 }
 
 .footer-content {
@@ -14,13 +14,13 @@
 
 .footer-text {
   margin: 0;
-  color: #6c757d;
+  color: #a0a0a0;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
 
 .brand-name {
-  color: #000;
+  color: #ced4da;
   font-weight: 600;
 }
 
@@ -36,7 +36,7 @@
   }
   .footer-text {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 5px;
   }
 }

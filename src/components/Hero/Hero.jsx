@@ -51,8 +51,8 @@ function Hero() {
           businesses.
         </p>
 
-        <a href={CV} download className="resume-link">
-          <button className="btn-primary">Download Resume</button>
+        <a href={CV} download>
+          <button >Download Resume</button>
         </a>
       </div>
     </section>

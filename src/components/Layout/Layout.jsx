@@ -23,11 +23,8 @@ const Layout = ({ children, selectedPage, onSetPage }) => {
   };
   return (
     <>
-      <Navbar />
+      <Navbar rendersPageLinks={rendersPageLinks} />
       <main>
-        <aside>
-          <ul>{rendersPageLinks()}</ul>
-        </aside>
         <section>{children}</section>
       </main>
       <Footer />

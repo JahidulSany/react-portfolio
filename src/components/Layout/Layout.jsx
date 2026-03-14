@@ -10,14 +10,17 @@ const pages = [
 const Layout = ({ children, selectedPage, onSetPage }) => {
   const rendersPageLinks = () => {
     return pages.map((page) => (
-      <li
-        style={page.key === selectedPage ? { backgroundColor: '#999' } : {}}
-        key={page.key}
-        onClick={() => {
-          onSetPage(page.key);
-        }}
-      >
-        {page.name}
+      <li key={page.key} className="nav-item">
+        <a
+          className={`${page.key === selectedPage ? 'nav-link active' : 'nav-link'}`}
+          href={`#${page.key}`}
+          onClick={(e) => {
+            e.preventDefault();
+            onSetPage(page.key);
+          }}
+        >
+          {page.name}
+        </a>
       </li>
     ));
   };
